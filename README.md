@@ -25,13 +25,13 @@ import playerFishingAfterEvent from "./lib/FishingEvent";
 
 // Subscribe to the fishing event
 playerFishingAfterEvent.subscribe((event) => {
-    // Player who went fishing
+    // player who fished
     event.player: Minecraft.Player;
-    // ItemStack of the caught item, or undefined if no item was caught
+    // Items obtained from fishing
     event.itemStack: Minecraft.ItemStack / undefined;
-    // Dimension where the fishing occurred
+    // fishing dimension
     event.dimension: Minecraft.Dimension;
-    // Result of the fishing (true if an item was caught, false otherwise)
+    // fishing results
     event.result: Boolean;
 });
 ```
