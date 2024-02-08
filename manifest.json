@@ -4,8 +4,8 @@
 		"name": "playerFishingEvent",
 		"description": "Developed by Naruru29.",
 		"uuid": "e6f3b3e2-b286-4878-8aea-1ae1cb91c3ad",
-		"version": [ 1, 0, 0 ],
-		"min_engine_version": [ 1, 20, 50 ]
+		"version": [ 1, 1, 0 ],
+		"min_engine_version": [ 1, 20, 60 ]
 	},
 	"metadata": {
 		"authors": ["Naruru29"],
@@ -14,21 +14,21 @@
 	"modules": [{
 			"type": "data",
 			"uuid": "24b09a0a-8a35-42eb-8936-52cd0f5c9532",
-			"version": [ 1, 0, 0 ]
+			"version": [ 1, 1, 0 ]
 		},
 		{
 			"description": "DatabaseMC",
 			"language": "javascript",
 			"type": "script",
 			"uuid": "d8e31aba-b778-48b3-aee0-6e5daaf70f9b",
-			"version": [ 1, 0, 0 ],
+			"version": [ 1, 1, 0 ],
 			"entry": "scripts/index.js"
 		}
 	],
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.8.0-beta"
+			"version": "1.9.0-beta"
 		}
 	]
 }
